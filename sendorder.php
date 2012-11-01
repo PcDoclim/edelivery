@@ -36,7 +36,7 @@ if($con)
 mysql_query($query);
 
 			
-			$url="https://www.smsn.gr/api/http/send.php?username=billyboylim&password=2254024052&from=edelivery&message=".$order."&to=".$property['Phone']."";
+			$url="https://www.smsn.gr/api/http/send.php?username=billyboylim&password=[password]&from=edelivery&message=".$order."&to=".$property['Phone']."";
 }
 $_SESSION['order']=$url;
 echo $_SESSION['order'];
